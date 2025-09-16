@@ -11,11 +11,11 @@ class Config(object):
 
     # database config
     DB_NAME = os.environ.get("DB_NAME","Cluster0")     
-    DB_URL  = os.environ.get("DB_URL","mongodb+srv://helphm9:MO7vlO8DtXqezh3i@cluster0.mom8p.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+    DB_URL  = os.environ.get("DB_URL","")
  
     # other configs
     BOT_UPTIME  = time.time()
-    START_PIC   = os.environ.get("START_PIC", "https://envs.sh/gNW.jpg")
+    START_PIC   = os.environ.get("START_PIC", "")
     ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '7657218453').split()]
 
     # channels logs
@@ -29,14 +29,14 @@ class Config(object):
 
 class Txt(object):
     # part of text configuration
-    START_TXT = """Hᴇy {} Wᴇʟᴄᴏᴍᴇ ✨
+    START_TXT = """**Hᴇy {} Wᴇʟᴄᴏᴍᴇ ✨**
 ╭─────────────⋗
-├⋗ ɪ'ᴍ ᴀᴅᴠᴀɴᴄᴇᴅ ᴀɴᴅ ʏᴇᴛ
-├⋗ ᴘᴏᴡᴇʀғᴜʟ ʀᴇɴᴀᴍᴇ ʙᴏᴛ.
+├⋗ **ɪ'ᴍ ᴀᴅᴠᴀɴᴄᴇᴅ ᴀɴᴅ ʏᴇᴛ**
+├⋗ **ᴘᴏᴡᴇʀғᴜʟ ʀᴇɴᴀᴍᴇ ʙᴏᴛ.**
 ├⋗ ᴜsɪɴɢ ᴛʜɪs ʙᴏᴛ ʏᴏᴜ ᴄᴀɴ sᴇᴛ
-├⋗ ᴛʜᴜᴍʙɴᴀɪʟ ᴏғ ʏᴏᴜʀ ғɪʟᴇs.
-├⋗ ʏᴏᴜ ᴄᴀɴ ᴀʟsᴏ ᴄᴏɴᴠᴇʀᴛ ᴠɪᴅᴇᴏ
-├⋗ ᴛᴏ ғɪʟᴇ ᴀɴᴅ ғɪʟᴇ ᴛᴏ ᴠɪᴅᴇᴏ.
+├⋗ **ᴛʜᴜᴍʙɴᴀɪʟ ᴏғ ʏᴏᴜʀ ғɪʟᴇs.**
+├⋗ **ʏᴏᴜ ᴄᴀɴ ᴀʟsᴏ ᴄᴏɴᴠᴇʀᴛ ᴠɪᴅᴇᴏ**
+├⋗ **ᴛᴏ ғɪʟᴇ ᴀɴᴅ ғɪʟᴇ ᴛᴏ ᴠɪᴅᴇᴏ.**
 ╰─────────────────⋗
 """
 
@@ -94,7 +94,7 @@ Aɴʏ Qᴜᴇʀʏ ⌯ <a href=http://t.me/iMSASUKES7i>ＩＭ 𖣘︎ ＵＣＨ�
 
 ғᴏʀ ᴇxᴀᴍᴘʟᴇ! 
 
-<code>By ❃ @NarutoPublicST</code>
+<code>By ❃ @SANDVILLAGE</code>
 
 💬 ғᴏʀ ᴀɴʏ ʜᴇʟᴘ ᴄᴏɴᴛᴀᴄᴛ @iMSASUKES7i
 """
