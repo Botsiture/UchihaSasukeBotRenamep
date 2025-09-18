@@ -71,7 +71,7 @@ class Txt(object):
 
 ➪ sᴇɴᴛ ᴀɴʏ ғɪʟᴇ ᴀɴᴅ ᴛʏᴘᴇ ɴᴇᴡ ғɪʟᴇ ɴᴀᴍᴇ ᴀɴᴅ sᴇʟᴇᴄᴛ ᴛʜᴇ ғᴏʀᴍᴀᴛ [ ᴅᴏᴄᴜᴍᴇɴᴛ, ᴠɪᴅᴇᴏ, ᴀᴜᴅɪᴏ ].           
 
-Aɴʏ Qᴜᴇʀʏ ⌯ <a href=http://t.me/iMSASUKES7i>ＩＭ 𖣘︎ ＵＣＨＩＨＡ</a>
+**Aɴʏ Qᴜᴇʀʏ** ⌯ <a href=http://t.me/iMSASUKES7i>**ＩＭ 𖣘︎ ＵＣＨＩＨＡ**</a>
 """
 
     PROGRESS_BAR = """\n
@@ -96,7 +96,7 @@ Aɴʏ Qᴜᴇʀʏ ⌯ <a href=http://t.me/iMSASUKES7i>ＩＭ 𖣘︎ ＵＣＨ�
 
 <code>By ❃ @SANDVILLAGE</code>
 
-💬 ғᴏʀ ᴀɴʏ ʜᴇʟᴘ ᴄᴏɴᴛᴀᴄᴛ @iMSASUKES7i
+💬 **ғᴏʀ ᴀɴʏ ʜᴇʟᴘ ᴄᴏɴᴛᴀᴄᴛ** @iMSASUKES7i
 """
 
 
