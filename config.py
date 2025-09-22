@@ -42,7 +42,7 @@ class Txt(object):
 
     ABOUT_TXT = """
 ╭────────────────⋗
-├⋗<b> Mʏ Nᴀᴍᴇ</b> : {}
+├⋗<b> Mʏ Nᴀᴍᴇ</b> : **{}**
 ├⋗<b> Oᴡɴᴇʀ</b> : <a href=http://t.me/iMSASUKES7i>**ＩＭ 𖣘︎ ＵＣＨＩＨＡ**</a> 
 ├⋗<b> Gʀᴏᴜᴘ</b> : <a href=https://t.me/SANDVILLAGE>**𝐒ᴧηԃ 友 𝐕𝛊ʅʅᴧɠҽ**</a>
 ├⋗<b> Cʜᴀɴɴᴇʟ</b> : <a href=https://t.me/NARUTO_PUBLIC>𝐍𝐀𝐑𝐔𝐓𝐎 🌀</a>     
