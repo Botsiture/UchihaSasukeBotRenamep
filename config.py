@@ -43,8 +43,8 @@ class Txt(object):
     ABOUT_TXT = """
 ╭────────────────⋗
 ├⋗<b> Mʏ Nᴀᴍᴇ</b> : {}
-├⋗<b> Dᴇᴠᴇʟᴏᴘᴇʀ</b> : <a href=http://t.me/iMSASUKES7i>ＩＭ 𖣘︎ ＵＣＨＩＨＡ</a> 
-├⋗<b> Gʀᴏᴜᴘ Cʜᴀᴛ</b> : <a href=https://t.me/SANDVILLAGE>𝐒ᴧηԃ 友 𝐕𝛊ʅʅᴧɠҽ</a>
+├⋗<b> Oᴡɴᴇʀ</b> : <a href=http://t.me/iMSASUKES7i>**ＩＭ 𖣘︎ ＵＣＨＩＨＡ**</a> 
+├⋗<b> Gʀᴏᴜᴘ</b> : <a href=https://t.me/SANDVILLAGE>**𝐒ᴧηԃ 友 𝐕𝛊ʅʅᴧɠҽ**</a>
 ├⋗<b> Cʜᴀɴɴᴇʟ</b> : <a href=https://t.me/NARUTO_PUBLIC>𝐍𝐀𝐑𝐔𝐓𝐎 🌀</a>     
 ╰──────────────────⋗
 """
@@ -71,7 +71,7 @@ class Txt(object):
 
 ➪ sᴇɴᴛ ᴀɴʏ ғɪʟᴇ ᴀɴᴅ ᴛʏᴘᴇ ɴᴇᴡ ғɪʟᴇ ɴᴀᴍᴇ ᴀɴᴅ sᴇʟᴇᴄᴛ ᴛʜᴇ ғᴏʀᴍᴀᴛ [ ᴅᴏᴄᴜᴍᴇɴᴛ, ᴠɪᴅᴇᴏ, ᴀᴜᴅɪᴏ ].           
 
-**Aɴʏ Qᴜᴇʀʏ** ⌯ <a href=http://t.me/iMSASUKES7i>**ＩＭ 𖣘︎ ＵＣＨＩＨＡ**</a>
+**Aɴʏ Qᴜᴇʀʏ ⌯ **<a href=http://t.me/iMSASUKES7i>**ＩＭ 𖣘︎ ＵＣＨＩＨＡ**</a>
 """
 
     PROGRESS_BAR = """\n
