@@ -19,7 +19,7 @@ class Config(object):
     ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '7657218453').split()]
 
     # channels logs
-    FORCE_SUB   = os.environ.get("FORCE_SUB", "SandVillage") 
+    FORCE_SUB   = os.environ.get("FORCE_SUB", "Sand_Village") 
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002353049842"))
 
     # wes response configuration     
@@ -43,8 +43,8 @@ class Txt(object):
     ABOUT_TXT = """
 ╭────────────────⋗
 ├⋗<b> Mʏ Nᴀᴍᴇ</b> : **{}**
-├⋗<b> Oᴡɴᴇʀ</b> : <a href=http://t.me/iMSASUKES7i>**ＩＭ 𖣘︎ ＵＣＨＩＨＡ**</a> 
-├⋗<b> Gʀᴏᴜᴘ</b> : <a href=https://t.me/SANDVILLAGE>**𝐒ᴧηԃ 友 𝐕𝛊ʅʅᴧɠҽ**</a>
+├⋗<b> Oᴡɴᴇʀ</b> : <a href=http://t.me/iMSASUKESi>**ＩＭ 𖣘︎ ＵＣＨＩＨＡ**</a> 
+├⋗<b> Gʀᴏᴜᴘ</b> : <a href=https://t.me/SAND_VILLAGE>**𝐒ᴧηԃ 友 𝐕𝛊ʅʅᴧɠҽ**</a>
 ├⋗<b> Cʜᴀɴɴᴇʟ</b> : <a href=https://t.me/NARUTO_PUBLIC>𝐍𝐀𝐑𝐔𝐓𝐎 🌀</a>     
 ╰──────────────────⋗
 """
@@ -71,7 +71,7 @@ class Txt(object):
 
 ➪ sᴇɴᴛ ᴀɴʏ ғɪʟᴇ ᴀɴᴅ ᴛʏᴘᴇ ɴᴇᴡ ғɪʟᴇ ɴᴀᴍᴇ ᴀɴᴅ sᴇʟᴇᴄᴛ ᴛʜᴇ ғᴏʀᴍᴀᴛ [ ᴅᴏᴄᴜᴍᴇɴᴛ, ᴠɪᴅᴇᴏ, ᴀᴜᴅɪᴏ ].           
 
-**Aɴʏ Qᴜᴇʀʏ ⌯ **<a href=http://t.me/iMSASUKES7i>**ＩＭ 𖣘︎ ＵＣＨＩＨＡ**</a>
+**Aɴʏ Qᴜᴇʀʏ ⌯ **<a href=http://t.me/iMSASUKESi>**ＩＭ 𖣘︎ ＵＣＨＩＨＡ**</a>
 """
 
     PROGRESS_BAR = """\n
@@ -86,7 +86,7 @@ class Txt(object):
 
 ɪғ ʏᴏᴜ ʟɪᴋᴇ ᴍʏ ʙᴏᴛs & ᴘʀᴏᴊᴇᴄᴛs, ʏᴏᴜ ᴄᴀɴ 🎁 ᴅᴏɴᴀᴛᴇ ᴍᴇ ᴀɴʏ ᴀᴍᴏᴜɴᴛ ғʀᴏᴍ 𝟷𝟶 ʀs ᴜᴘᴛᴜ ʏᴏᴜʀ ᴄʜᴏɪᴄᴇ.
 
-<b>🛍 UPI ID:</b> `sajideditz27@okhdfcbank`
+<b>🛍 UPI ID:</b> `sasuke72@ptyes`
 """
 
 
@@ -94,9 +94,9 @@ class Txt(object):
 
 ғᴏʀ ᴇxᴀᴍᴘʟᴇ! 
 
-<code>By ❃ @SANDVILLAGE</code>
+<code>By ❃ SAND VILLAGE</code>
 
-💬 **ғᴏʀ ᴀɴʏ ʜᴇʟᴘ ᴄᴏɴᴛᴀᴄᴛ** @iMSASUKES7i
+💬 **ғᴏʀ ᴀɴʏ ʜᴇʟᴘ ᴄᴏɴᴛᴀᴄᴛ** @iMSASUKESi
 """
 
 
