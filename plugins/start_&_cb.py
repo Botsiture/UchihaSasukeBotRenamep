@@ -11,10 +11,10 @@ async def start(client, message):
     user = message.from_user
     await jishubotz.add_user(client, message)                
     button = InlineKeyboardMarkup([
-        [InlineKeyboardButton('᪥ sᴜᴘᴘᴏʀᴛ ᪥', url='https://t.me/NARUTO_PUBLIC'),
-        InlineKeyboardButton('᪥ ᴜᴘᴅᴀᴛᴇ ᪥', url='https://t.me/Sand_Village')],
-        [InlineKeyboardButton('᪥ ᴀʙᴏᴜᴛ ᪥', callback_data='about'),
-        InlineKeyboardButton('᪥ ʜᴇʟᴘ ᪥', callback_data='help')],
+        [InlineKeyboardButton("᪥ sᴜᴘᴘᴏʀᴛ ᪥", url='https://t.me/NARUTO_PUBLIC'),
+        InlineKeyboardButton("᪥ ᴜᴘᴅᴀᴛᴇ ᪥", url='https://t.me/Sand_Village')],
+        [InlineKeyboardButton("᪥ ᴀʙᴏᴜᴛ ᪥", callback_data='about'),
+        InlineKeyboardButton("᪥ ʜᴇʟᴘ ᪥", callback_data='help')],
         [InlineKeyboardButton("᯽ ɴᴀʀᴜᴛᴏ sʜɪᴘᴘᴜᴅᴇɴ ᯽", url='https://t.me/Naruto_Public')]
     ])
     if Config.START_PIC:
@@ -31,10 +31,10 @@ async def cb_handler(client, query: CallbackQuery):
             text=Txt.START_TXT.format(query.from_user.mention),
             disable_web_page_preview=True,
             reply_markup = InlineKeyboardMarkup([
-                [InlineKeyboardButton('᪥ sᴜᴘᴘᴏʀᴛ ᪥', url='https://t.me/NARUTO_PUBLIC'),
-                InlineKeyboardButton('᪥ ᴜᴘᴅᴀᴛᴇ ᪥', url='https://t.me/Sand_Village')],
-                [InlineKeyboardButton('᪥ ᴀʙᴏᴜᴛ ᪥', callback_data='about'),
-                InlineKeyboardButton('᪥ ʜᴇʟᴘ ᪥', callback_data='help')],
+                [InlineKeyboardButton("᪥ sᴜᴘᴘᴏʀᴛ ᪥", url='https://t.me/NARUTO_PUBLIC'),
+                InlineKeyboardButton("᪥ ᴜᴘᴅᴀᴛᴇ ᪥", url='https://t.me/Sand_Village')],
+                [InlineKeyboardButton("᪥ ᴀʙᴏᴜᴛ ᪥", callback_data='about'),
+                InlineKeyboardButton("᪥ ʜᴇʟᴘ ᪥", callback_data='help')],
                 [InlineKeyboardButton("᯽ ɴᴀʀᴜᴛᴏ sʜɪᴘᴘᴜᴅᴇɴ ᯽", url='https://t.me/Naruto_Public')]
             ])
         )
