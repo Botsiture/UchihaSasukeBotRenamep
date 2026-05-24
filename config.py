@@ -1,5 +1,5 @@
 import os, time, re
-id_pattern = re.compile(r'^.\d+$')
+id_pattern = re.compile(r'^-?\d+$')
 
 
 
@@ -16,14 +16,14 @@ class Config(object):
     # other configs
     BOT_UPTIME  = time.time()
     START_PIC   = os.environ.get("START_PIC", "")
-    ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '7657218453').split()]
+    ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get("ADMIN", "7657218453").split()]
 
     # channels logs
     FORCE_SUB   = os.environ.get("FORCE_SUB", "Sand_Village") 
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))
 
     # wes response configuration     
-    WEBHOOK = bool(os.environ.get("WEBHOOK", True))
+    WEBHOOK = os.environ.get("WEBHOOK", "True") == "True"
 
 
 
