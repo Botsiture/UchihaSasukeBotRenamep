@@ -1,5 +1,5 @@
 import os, time, re
-id_pattern = re.compile(r'^-?\d+$')
+id_pattern = re.compile(r'^.\d+$')
 
 
 
