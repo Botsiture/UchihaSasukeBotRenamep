@@ -8,7 +8,7 @@ from route import web_server
 import pyromod
 import pyrogram.utils
 
-pyrogram.utils.MIN_CHANNEL_ID = -1009147483647
+pyrogram.utils.MIN_CHANNEL_ID = -100999999999999
 
 
 class Bot(Client):
@@ -57,5 +57,7 @@ Bot().run()
 
 # Jishu Developer 
 # Don't Remove Credit 🥺
-# Telegram Channel @JishuBotz
+# Telegram Channel @MadflixBotz
+# Backup Channel @JishuBotz
 # Developer @JishuDeveloper
+# Contact @MadflixSupport
